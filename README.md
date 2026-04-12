@@ -12,6 +12,10 @@ between two devices with no infrastructure. Every message is encrypted end-to-en
   
 **Board**: ESP32-WROOM-32E  
   Espressif v4.4
+## Resources
+- [ESP-NOW v4](https://docs.espressif.com/projects/esp-idf/en/release-v4.4/esp32/api-reference/network/esp_now.html#)
+- [ESP WiFi](https://docs.espressif.com/projects/esp-idf/en/v4.0.4/api-reference/network/esp_wifi.html)
+
 ## Dependencies
 
 - [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
