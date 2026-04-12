@@ -24,6 +24,13 @@ between two devices with no infrastructure. Every message is encrypted end-to-en
 - End-to-end AES-128 encrypted communication
 - Works completely offline (no internet or router required)
 
+## Hardware 
+- Freenove ESP32-WROOM-32E Dev Kit
+- 128x64 SSD1306 OLED display
+- Passive buzzer
+- 6x6x10 tactile push buttons
+- 3.7V LiPo battery + TP4056 charging module
+
 ## Future Work
 - 3D printed enclosure
 - Redesign UI
