@@ -1,4 +1,5 @@
 // btn.cpp
+// Header files
 #include "btn.h"
 #include "state.h"
 #include "input.h"
@@ -60,9 +61,7 @@ void pressUp()
         return;
     }
     else 
-    {
         menuItems[currentScreen - 1].inputFunc(UP_PRESSED);
-    }
 }
 
 
@@ -88,9 +87,7 @@ void pressDown()
         return;
     }
     else 
-    {
         menuItems[currentScreen - 1].inputFunc(DOWN_PRESSED);
-    }
 }
 
 
@@ -143,7 +140,6 @@ void holdRight()
 // ------------ OK ------------
 void pressOk()
 {
-    Serial.printf("pressOk fired | alertReceived: %d\n", alertReceived);
     playClick();
     wakeUp();
 
@@ -162,9 +158,7 @@ void pressOk()
         return;
     }
     else
-    {
         menuItems[currentScreen - 1].inputFunc(OK_PRESSED);
-    }
 }
  
 

@@ -5,8 +5,6 @@
 
 #include "pitches.h"
 
-
-// ================= AUDIO =================
 void playClick()
 {
     ledcWriteTone(0, 1200);

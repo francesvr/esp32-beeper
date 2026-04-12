@@ -3,7 +3,6 @@
 
 #include <Arduino.h>
 
-
 // coms
 #define MY_NAME "Athena"
 static const uint8_t mac_peers[][ESP_NOW_ETH_ALEN] = 

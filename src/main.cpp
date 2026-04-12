@@ -1,13 +1,16 @@
 // main.cpp
+// Libraries required for communication
 #include <WiFi.h>
 #include <esp_now.h>
 #include "esp_wifi.h"
+
+// Libraries required for OLED, buzzer, and button
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <Wire.h>
-#include "Picopixel.h"
 #include <OneButton.h>
 
+// Header files
 #include "config.h"
 #include "coms.h"
 #include "state.h"
@@ -15,13 +18,10 @@
 #include "btn.h"
 #include "power.h"
 #include "beep.h"
-#include "bitmaps.h"
 #include "draw.h"
 #include "board_info.h"
 
-
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
-
 
 void setup()
 {

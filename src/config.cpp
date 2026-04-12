@@ -1,8 +1,6 @@
 // config.h 
 #include "config.h"
 
-const char* const alertTypes[]    = { "SOS" };
-
 const char* const quickMessages[] = {
     "On my way",
     "Need help",

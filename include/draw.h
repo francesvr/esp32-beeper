@@ -10,13 +10,13 @@ extern const char num_sym[];
 
 float chToFreq(int channel);
 
+void drawBackButton();
 void drawScrollBarCursor(int itemCount, int index, int scroll_bar_x, int scroll_bar_start, int scroll_bar_end);
 
 void drawMenuLayout();
 void drawMenuItems();
 
-void drawBackButton();
-
+// Draw screens
 void drawMsgScreen();
 void drawSendAlertScreen();
 void drawInboxScreen();
@@ -26,6 +26,6 @@ void drawQuickSendScreen();
 void drawKeyboard();
 void drawMsgTyped();
 
-void drawMsgReceived();
 void drawMsgSending();
+void drawMsgReceived();
 void drawAlertReceived();

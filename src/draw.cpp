@@ -13,7 +13,8 @@
 #include "Picopixel.h"
 #include "FreeSans12pt7b.h"
 
-
+// Keyboard modes
+// Hold UP button to switch keys
 const char upper_alph[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const char lower_alph[] = "abcdefghijklmnopqrstuvwxyz";
 const char num_sym[]    = "0123456789!@#$%^&*()?.,/:;";
@@ -183,8 +184,8 @@ void drawKeyboard()
 
     for (int i = 0; i < 26; i++)
     {
-        int x = (i < 13) ? startX + i * spacing           : startX + (i - 13) * spacing;
-        int y = (i < 13) ? row1Y                          : row2Y;
+        int x = (i < 13) ? startX + i * spacing : startX + (i - 13) * spacing;
+        int y = (i < 13) ? row1Y : row2Y;
 
         if (i == selectedIndex && !backSelected)
         {

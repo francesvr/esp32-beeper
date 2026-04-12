@@ -86,6 +86,8 @@ void onSent(const uint8_t *mac_addr, esp_now_send_status_t status)
         Serial.println("Delivery failed");
 }
 
+
+// =============== Received callback ===============
 void onReceived(const uint8_t *mac_addr, const uint8_t *incomingData, int len)
 {
     Serial.printf("Received %d bytes | AlertPacket: %d | Message: %d | PingPacket: %d\n",
@@ -143,12 +145,12 @@ void onReceived(const uint8_t *mac_addr, const uint8_t *incomingData, int len)
         return;
     }
 
-    // Chat message
+    // Write message
     if (len == sizeof(Message))
     {
         wakeUp();
         memcpy(&msg, incomingData, sizeof(msg));
-        msgReceived     = true;
+        msgReceived = true;
         msgReceivedTime = millis();
         Serial.printf("[%s]: %s\n", msg.from, msg.text);
         Serial.printf("RSSI: %d dBm\n", rssi);
@@ -236,6 +238,7 @@ void sendPing()
         esp_now_send(mac_peers[i], (uint8_t *)&ping, sizeof(ping));
 }
 
+// =============== Send message ===============
 void sendMsg(const char* text)
 {
     memset(&txMsg, 0, sizeof(txMsg));
@@ -246,6 +249,7 @@ void sendMsg(const char* text)
         esp_now_send(mac_peers[i], (uint8_t *)&txMsg, sizeof(txMsg));
 }
 
+// =============== Sent Alert ===============
 void sendAlert(uint8_t alertType)
 {
     AlertPacket pkt;
@@ -257,9 +261,10 @@ void sendAlert(uint8_t alertType)
         esp_now_send(mac_peers[i], (uint8_t *)&pkt, sizeof(pkt));
 
     if (alertType == ALERT_SOS)
-        playAlertSent();    // in audio.cpp
+        playAlertSent();
 }
 
+// =============== Cancel alert ===============
 void sendAlertCancel()
 {
     sendAlert(ALERT_CANCEL);

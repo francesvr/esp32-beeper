@@ -42,7 +42,7 @@ extern volatile int rssi;
 extern int channel;
 
 // Per-peer signal tracking
-extern volatile int peer_rssi[NUM_PEERS];                // Last RSSI reading per peer
+extern volatile int peer_rssi[NUM_PEERS]; // Last RSSI reading per peer
 extern volatile unsigned long peer_last_seen[NUM_PEERS]; // millis() of last ping from peer
 
 extern bool          msgReceived;
