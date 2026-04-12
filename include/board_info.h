@@ -4,13 +4,13 @@
 #include <Arduino.h>
 
 // coms
-#define MY_NAME "Athena"
+#define MY_NAME "Athena"    // This board's name
 static const uint8_t mac_peers[][ESP_NOW_ETH_ALEN] = 
 {   // Add peers MAC address
     {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}    // Change to other board's MAC
 };
 
-
+// Peers names
 static const char* const peer_names[] =
 {
     "Kenji",
