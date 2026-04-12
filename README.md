@@ -6,8 +6,9 @@ Inspired by the Filipino movie *She's Dating the Gangster*, set in the late 1990
 used by Filipino young adults, the two devices are named Kenji and Athena after the film's main characters.  
   
 Unlike real 1990s beepers which relied on one-way radio paging towers, the ESP32 Beeper communicates directly 
-between two devices with no infrastructure. Every message is encrypted end-to-end using AES-128. 
-*See coms.h and coms.cpp for the full communication implementation.*  
+between two devices with no infrastructure. Every message is encrypted end-to-end using AES-128.   
+  
+  *See [coms.cpp](https://github.com/francesvr/esp32-beeper/blob/main/src/coms.cpp) and [coms.h](https://github.com/francesvr/esp32-beeper/blob/main/src/coms.h) for the full communication implementation.*  
   
   
 ## Dependencies
