@@ -11,7 +11,18 @@ between two devices with no infrastructure. Every message is encrypted end-to-en
   *See [coms.cpp](https://github.com/francesvr/esp32-beeper/blob/main/src/coms.cpp) and [coms.h](https://github.com/francesvr/esp32-beeper/blob/main/include/coms.h) for the full communication implementation.*  
   
 **Board**: ESP32-WROOM-32E  
-  Espressif v4.4
+  Espressif v4.4  
+
+## Features
+- Write a message to peers
+- Quick-send premade messages to peers
+- Send SOS alerts to peers
+- View the last received message
+- Check peer signal strength (RSSI) and last active time
+- End-to-end AES-128 encrypted communication
+- Works completely offline
+
+
 ## Resources
 - [ESP-NOW v4](https://docs.espressif.com/projects/esp-idf/en/release-v4.4/esp32/api-reference/network/esp_now.html#)
 - [ESP WiFi](https://docs.espressif.com/projects/esp-idf/en/v4.0.4/api-reference/network/esp_wifi.html)
