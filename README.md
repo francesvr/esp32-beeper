@@ -10,7 +10,8 @@ between two devices with no infrastructure. Every message is encrypted end-to-en
   
   *See [coms.cpp](https://github.com/francesvr/esp32-beeper/blob/main/src/coms.cpp) and [coms.h](https://github.com/francesvr/esp32-beeper/blob/main/include/coms.h) for the full communication implementation.*  
   
-  
+**Board**: ESP32-WROOM-32E  
+  Espressif v4.4
 ## Dependencies
 
 - [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
