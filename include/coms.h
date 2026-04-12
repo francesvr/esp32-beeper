@@ -4,7 +4,7 @@
 #include <esp_now.h>
 #include <WiFi.h>
 #include "esp_wifi.h"
-#include "_properties.h"
+#include "board_info.h"
 
 // Espressif Organization Identifier -- used to identify ESP-NOW packets
 static const uint8_t ESP_OUI[] = {0x18, 0xfe, 0x34};

@@ -17,7 +17,7 @@
 #include "beep.h"
 #include "bitmaps.h"
 #include "draw.h"
-#include "_properties.h"
+#include "board_info.h"
 
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);

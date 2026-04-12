@@ -7,7 +7,7 @@
 #include "ui.h"
 #include "config.h"
 
-#include "_properties.h"
+#include "board_info.h"
 
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>

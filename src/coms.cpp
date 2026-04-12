@@ -4,7 +4,7 @@
 #include "esp_wifi.h"
 
 #include "coms.h"
-#include "_properties.h"
+#include "board_info.h"
 #include "state.h"
 #include "beep.h"
 #include "power.h"
