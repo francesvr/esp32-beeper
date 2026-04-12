@@ -32,4 +32,4 @@ between two devices with no infrastructure. Every message is encrypted end-to-en
 - [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
 - [Adafruit GFX](https://github.com/adafruit/Adafruit-GFX-Library)
 - [OneButton](https://github.com/mathertel/OneButton)
-- [ESP-NOW](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_now.html) — built into ESP32 Arduino core
+- [ESP-NOW](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_now.html)
