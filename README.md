@@ -11,7 +11,9 @@ between two devices with no infrastructure. Every message is encrypted end-to-en
   *See [coms.cpp](https://github.com/francesvr/esp32-beeper/blob/main/src/coms.cpp) and [coms.h](https://github.com/francesvr/esp32-beeper/blob/main/include/coms.h) for the full communication implementation.*  
   
 **Board**: ESP32-WROOM-32E  
-  Espressif v4.4  
+  Espressif v4.4    
+    
+  ![beeper_soldered](https://github.com/user-attachments/assets/86dab03e-738d-4937-a64c-02a6e215f988)
 
 ## Features
 - Write a message to peers
