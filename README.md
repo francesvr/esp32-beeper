@@ -10,7 +10,7 @@ between two devices with no infrastructure. Every message is encrypted end-to-en
   
   *See [coms.cpp](https://github.com/francesvr/esp32-beeper/blob/main/src/coms.cpp) and [coms.h](https://github.com/francesvr/esp32-beeper/blob/main/include/coms.h) for the full communication implementation.*  
   
-**Board**: ESP32-WROOM-32E  
+**Board**: ESP32-WROOM-32E Dev Board
   Espressif v4.4    
     
   ![beeper_soldered](https://github.com/user-attachments/assets/86dab03e-738d-4937-a64c-02a6e215f988)
@@ -22,8 +22,11 @@ between two devices with no infrastructure. Every message is encrypted end-to-en
 - View the last received message
 - Check peer signal strength (RSSI) and last active time
 - End-to-end AES-128 encrypted communication
-- Works completely offline
+- Works completely offline (no internet or router required)
 
+## Future Work
+- 3D printed enclosure
+- Redesign UI
 
 ## Resources
 - [ESP-NOW v4](https://docs.espressif.com/projects/esp-idf/en/release-v4.4/esp32/api-reference/network/esp_now.html#)
@@ -35,3 +38,7 @@ between two devices with no infrastructure. Every message is encrypted end-to-en
 - [Adafruit GFX](https://github.com/adafruit/Adafruit-GFX-Library)
 - [OneButton](https://github.com/mathertel/OneButton)
 - [ESP-NOW](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_now.html)
+
+
+## Acknowledgements 
+- [Freenove](https://freenove.com) for providing the Freenove ESP32-WROOM-32E Dev Board 3D model
