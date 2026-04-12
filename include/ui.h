@@ -1,5 +1,6 @@
 // ui.h
 #pragma once
+
 #include "config.h"
 
 extern const MenuItem menuItems[];

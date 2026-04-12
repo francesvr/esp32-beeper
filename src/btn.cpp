@@ -1,6 +1,4 @@
 // btn.cpp
-
-// btn.cpp
 #include "btn.h"
 #include "state.h"
 #include "input.h"

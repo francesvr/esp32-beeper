@@ -59,30 +59,16 @@ void loop()
   if (alertReceived)
     playAlert();
 
+  if (msgReceived) 
+  {
+    playBeep();
+    msgReceived = false;
+  }
+  
   static unsigned long lastPing = 0;
   if (millis() - lastPing >= 5000)
   {
     sendPing();
     lastPing = millis();
-  }
-
-
-  // remove later
-
-  static unsigned long lastRSSI = 0;
-
-  if (millis() - lastRSSI >= 1000)
-  {
-    for (int i = 0; i < NUM_PEERS; i++)
-    {
-      bool stale = (millis() - peer_last_seen[i]) > 15000;
-      Serial.printf("Peer %d | RSSI: %d dBm | Last seen: %lums ago %s\n",
-        i,
-        peer_rssi[i],
-        millis() - peer_last_seen[i],
-        stale ? "(offline?)" : ""
-      );
-    }
-    lastRSSI = millis();
   }
 }

@@ -1,5 +1,5 @@
+// bitmaps.h
 #pragma once
-// BITMAPS_H
 
 #include "config.h"
 

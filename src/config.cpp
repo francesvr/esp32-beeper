@@ -1,3 +1,4 @@
+// config.h 
 #include "config.h"
 
 const char* const alertTypes[]    = { "SOS" };

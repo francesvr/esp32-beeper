@@ -1,5 +1,4 @@
 // draw.cpp
-// draw.cpp
 #include "draw.h"
 #include "state.h"
 #include "coms.h"
@@ -238,7 +237,7 @@ void drawSendAlertScreen()
     display.fillRect(0, 0, 128, 64, 1);
 
     display.setTextColor(0);
-    display.setCursor(39, 30);
+    display.setCursor(39, 31);
     display.print("SOS");
 
     display.setFont();
@@ -335,9 +334,8 @@ void drawRSSIScreen()
 
     display.setFont();
 
-    // Peer name from _properties.h
     display.setCursor(2, 31);
-    display.print(peer_names[0]);   // from _properties.h
+    display.print(peer_names[0]);
 
     // Last seen
     display.setCursor(2, 55);
