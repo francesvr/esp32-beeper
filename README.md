@@ -8,7 +8,8 @@ Inspired by the Filipino movie *She's Dating the Gangster*, set in the late 1990
   
 **Board**: ESP32-WROOM-32E Dev Board
     
-  ![beeper_soldered](https://github.com/user-attachments/assets/86dab03e-738d-4937-a64c-02a6e215f988)
+![esp32-beepers](https://github.com/user-attachments/assets/1157c72a-c1c1-4d91-896d-7b382e5d5843)
+
 
 ## Features
 - Write a message to peers
