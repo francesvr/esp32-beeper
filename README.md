@@ -12,7 +12,7 @@ Inspired by the Filipino movie *She's Dating the Gangster*, set in the late 1990
 3D model of the beepers under [pcb_3dmodel](https://github.com/francesvr/esp32-beeper/blob/main/pcb_3dmodel/)
 
 ## UI Design
-The OLED UI was designed using [Lopaka](https://lopaka.app/) with a mix of custom and existing bitmap assets.
+- The OLED UI was designed using [Lopaka](https://lopaka.app/) with a mix of custom and existing bitmap assets. *See a few screenshots under [ui_designs](https://github.com/francesvr/esp32-beeper/blob/main/ui_designs/) and bitmaps can be found under [bitmaps.cpp](https://github.com/francesvr/esp32-beeper/blob/main/src/bitmaps.cpp)*
 
 ## Features
 - Write a message to peers
