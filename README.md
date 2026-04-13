@@ -26,6 +26,9 @@ Inspired by the Filipino movie *She's Dating the Gangster*, set in the late 1990
 - 6x6x10 tactile push buttons
 - 3.7V LiPo battery + TP4056 charging module
 
+Circuit:
+<img width="900" height="844" alt="beeper_circuit" src="https://github.com/user-attachments/assets/396c484a-e9f7-4935-8432-57ae4364e559" />
+
 ## Future Work
 - 3D printed enclosure
 - Redesign UI
