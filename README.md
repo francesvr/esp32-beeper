@@ -1,6 +1,7 @@
 # ESP32 Beeper
-The ESP32 Beeper is a peer-to-peer encrypted messaging device that works completely offline — no internet, no router, no server. Originally built as an academic project for a Wireless Communication and Microcontroller class, it evolved into a fully functional communication system using ESP-NOW over the ESP32's built-in 2.4 GHz Wi-Fi.
-Communication is handled over IEEE 802.11 on Channel 1 (2.412 GHz) using vendor-specific action frames with Espressif's OUI (0x18FE34). Three packet types are used — a 239-byte Message for text, a 9-byte AlertPacket for SOS and cancel, and a 1-byte PingPacket for keepalive heartbeats sent every 5 seconds. Signal strength (RSSI) is measured passively by capturing incoming 802.11 management frames in promiscuous mode. Every message is encrypted end-to-end using AES-128 CCMP with a shared PMK and a per-peer LMK.
+The ESP32 Beeper is a peer-to-peer encrypted messaging device that works completely offline.  
+This project was originally an academic project for a Wireless Communication and Microcontroller class, it uses ESP-NOW over IEEE 802.11 on Channel 1 (2.412 GHz) with Espressif's vendor-specific action frames (OUI 0x18FE34) for direct device-to-device communication.
+Three packet types handle all communication: a 239-byte Message for text, a 9-byte AlertPacket for SOS and cancel, and a 1-byte PingPacket for keepalive heartbeats every 5 seconds. RSSI is measured passively by capturing incoming 802.11 management frames in promiscuous mode. Every message is encrypted end-to-end using AES-128 CCMP with a shared PMK and a per-peer LMK.
   
   *See [coms.cpp](https://github.com/francesvr/esp32-beeper/blob/main/src/coms.cpp) and [coms.h](https://github.com/francesvr/esp32-beeper/blob/main/include/coms.h) for the full communication implementation.*  
   
