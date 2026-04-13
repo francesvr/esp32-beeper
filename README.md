@@ -9,6 +9,7 @@ Inspired by the Filipino movie *She's Dating the Gangster*, set in the late 1990
 **Board**: ESP32-WROOM-32E Dev Board
     
 ![esp32-beepers](https://github.com/user-attachments/assets/1157c72a-c1c1-4d91-896d-7b382e5d5843)
+3D model of the beepers under [pcb_3dmodel](https://github.com/francesvr/esp32-beeper/blob/main/pcb_3dmodel/)
 
 ## UI Design
 The OLED UI was designed using [Lopaka](https://lopaka.app/) with a mix of custom and existing bitmap assets.
