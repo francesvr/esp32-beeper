@@ -10,7 +10,11 @@ Three packet types handle all communication: a 239-byte Message for text, a 9-by
 ![esp32-beepers](https://github.com/user-attachments/assets/1157c72a-c1c1-4d91-896d-7b382e5d5843)
 3D model of the beepers under [pcb_3dmodel](https://github.com/francesvr/esp32-beeper/blob/main/pcb_3dmodel/)
 
+#### Origin
+The two ESP32 Beeper were named after Kenji and Athena from the Filipino movie *She’s Dating the Gangster*. In the movie, the story begins when a beeper message goes to the wrong person after a pager ID gets recycled. The 1990s pagers  broadcast unencrypted messages to every device in range, and a pager only showed the message if the ID matched. Since pager IDs were reused, messages could easily end up with the wrong person.
 
+The ESP32 Beeper is a modern version of that idea without those limitations. Instead of broadcasting, it sends messages directly between devices using the boards' MAC addresses that never change or get reassigned. All messages are AES‑128 encrypted end‑to‑end, and only the intended device can read them.
+  
 ## Features
 - Write a message to peers
 - Quick-send premade messages to peers
