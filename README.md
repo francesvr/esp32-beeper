@@ -6,13 +6,10 @@ Inspired by the Filipino movie *She's Dating the Gangster*, set in the late 1990
   
   *See [coms.cpp](https://github.com/francesvr/esp32-beeper/blob/main/src/coms.cpp) and [coms.h](https://github.com/francesvr/esp32-beeper/blob/main/include/coms.h) for the full communication implementation.*  
   
-**Board**: ESP32-WROOM-32E Dev Board
     
 ![esp32-beepers](https://github.com/user-attachments/assets/1157c72a-c1c1-4d91-896d-7b382e5d5843)
 3D model of the beepers under [pcb_3dmodel](https://github.com/francesvr/esp32-beeper/blob/main/pcb_3dmodel/)
 
-## UI Design
-- The OLED UI was designed using [Lopaka](https://lopaka.app/) with a mix of custom and existing bitmap assets. *See a few screenshots under [ui_designs](https://github.com/francesvr/esp32-beeper/blob/main/ui_designs/) and bitmaps can be found under [bitmaps.cpp](https://github.com/francesvr/esp32-beeper/blob/main/src/bitmaps.cpp)*
 
 ## Features
 - Write a message to peers
@@ -33,6 +30,10 @@ Inspired by the Filipino movie *She's Dating the Gangster*, set in the late 1990
 Circuit:
 <img width="900" height="844" alt="beeper_circuit" src="https://github.com/user-attachments/assets/396c484a-e9f7-4935-8432-57ae4364e559" />
 
+## UI Design
+- The OLED UI was designed using [Lopaka](https://lopaka.app/) with a mix of custom and existing bitmap assets. *See a few screenshots under [ui_designs](https://github.com/francesvr/esp32-beeper/blob/main/ui_designs/) and bitmaps can be found under [bitmaps.cpp](https://github.com/francesvr/esp32-beeper/blob/main/src/bitmaps.cpp)*
+
+  
 ## Future Work
 - 3D printed enclosure
 - Redesign UI
