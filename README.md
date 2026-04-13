@@ -16,7 +16,7 @@ The two ESP32 Beeper were named after Kenji and Athena from the Filipino movie *
 The ESP32 Beeper is a modern version of that idea without those limitations. Instead of broadcasting, it sends messages directly between devices using the boards' MAC addresses that never change or get reassigned. All messages are AES‑128 encrypted end‑to‑end, and only the intended device can read them.
   
 ## Features
-- Write a message to peers
+- Write messages to peers
 - Quick-send premade messages to peers
 - Send SOS alerts to peers
 - View the last received message
