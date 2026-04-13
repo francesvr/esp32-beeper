@@ -10,6 +10,8 @@ Inspired by the Filipino movie *She's Dating the Gangster*, set in the late 1990
     
 ![esp32-beepers](https://github.com/user-attachments/assets/1157c72a-c1c1-4d91-896d-7b382e5d5843)
 
+## UI Design
+The OLED UI was designed using [Lopaka](https://lopaka.app/) with a mix of custom and existing bitmap assets.
 
 ## Features
 - Write a message to peers
